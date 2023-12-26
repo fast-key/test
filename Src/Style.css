@@ -1,0 +1,151 @@
+/* Font 
+font-family: 'Lato', sans-serif;
+
+COlors
+https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd
+font-0D1B2A
+
+navigation bg color - background-color: #4a5759;
+navigation bg colorr button -  background-color: #fb8500;
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+
+nav {
+  position: fixed;
+  background-color: #4a5759;
+  padding-top: 0.1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.navigation-button-main {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navigation-button {
+  background-color: #fb8500;
+  border-radius: 3px;
+  margin-right: 1rem;
+  padding: 0.3rem;
+  color: #ffeeda;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-size: 2rem;
+  border: 1px solid #ff8e0d;
+  cursor: default;
+  box-shadow: 1px 2px 1px #1a1a1a;
+}
+/* .hero-Main {
+  position: relative;
+} */
+.Hero-Img {
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 100%;
+  opacity: 0.6;
+}
+/* .Hero-Font-Main {
+  display: inline-block;
+  position: absolute;
+} */
+.Hero-Font {
+  font-size: 9rem;
+  color: #d7e2e6;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  position: absolute;
+  margin-top: -550px;
+  margin-left: 1rem;
+
+  animation-name: slide-right;
+  animation-duration: 4s;
+
+  /* color: #000000; */
+  /* background: #ffffff; */
+  text-shadow: 2px 2px 0 #111111, 4px 4px 0 #111111;
+  /* color: #000000; */
+  /* background: #ffffff; */
+}
+@keyframes slide-right {
+  /* 25% {
+    margin-left: -1000px;
+  } */
+  0% {
+    margin-left: -1000px;
+  }
+}
+
+.Hero-Sub-Font {
+  font-size: 4rem;
+  color: #d7e2e6;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  position: absolute;
+
+  margin-top: -430px;
+  margin-left: 2rem;
+
+  animation-name: slide-right;
+  animation-duration: 4s;
+
+  /* color: #000000; */
+  /* background: #ffffff; */
+  text-shadow: 2px 2px 0 #111111, 4px 4px 0 #111111;
+  /* color: #000000; */
+  /* background: #ffffff; */
+}
+.Hero-Order-Button {
+  background-color: #fb8500;
+  border-radius: 3px;
+  margin-right: 1rem;
+  padding: 0.4rem;
+  color: #ffeeda;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-size: 4rem;
+  border: 1px solid #ff8e0d;
+  cursor: default;
+  box-shadow: 1px 2px 1px #1a1a1a;
+
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 600px;
+  border-radius: 5px;
+
+  animation-name: test;
+  animation-duration: 4s;
+  opacity: 1;
+}
+@keyframes test {
+  0% {
+    opacity: 0;
+  }
+}
+
+.Logo-button-hero {
+  width: 3rem;
+  height: 3rem;
+  color: #ffeeda;
+}
+.Hero-Order-Button:hover {
+  background-color: #ff8e0d;
+  border: 2px solid #fff4e7;
+}
+
+/* .navigation-button:hover {
+  cursor: default;
+} */
+/* ===================== */

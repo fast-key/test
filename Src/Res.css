@@ -1,0 +1,77 @@
+/* 1920 x  1080 */
+
+@media (max-width: 1920px) {
+  .navigation-button {
+    font-size: 3rem;
+  }
+  .Hero-Font {
+    font-size: 15rem;
+    margin-top: -800px;
+  }
+  .Hero-Sub-Font {
+    margin-top: -620px;
+  }
+  .Hero-Order-Button {
+    margin-top: -500px;
+    margin-left: 840px;
+    font-size: 8rem;
+  }
+  .Logo-button-hero {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+/* 1845 */
+@media (max-width: 1845px) {
+  .Hero-Font {
+    font-size: 14rem;
+    margin-top: -800px;
+  }
+  .Hero-Order-Button {
+    margin-top: -560px;
+    margin-left: 840px;
+    font-size: 8rem;
+  }
+}
+/* 1723 */
+@media (max-width: 1723px) {
+  .Hero-Font {
+    font-size: 13rem;
+    margin-top: -700px;
+  }
+  .Hero-Sub-Font {
+    margin-top: -540px;
+  }
+  .Hero-Order-Button {
+    margin-top: -460px;
+  }
+}
+/* 1650px */
+@media (max-width: 1650px) {
+  .Hero-Order-Button {
+    margin-left: 700px;
+  }
+}
+/* 1601 */
+@media (max-width: 1601px) {
+  .Hero-Font {
+    font-size: 12rem;
+    margin-top: -700px;
+  }
+}
+/* 1478 */
+@media (max-width: 1478px) {
+  .Hero-Font {
+    font-size: 10rem;
+    margin-top: -700px;
+  }
+  .Hero-Sub-Font {
+    margin-top: -579px;
+  }
+  .Hero-Order-Button {
+    margin-left: 550px;
+  }
+  .navigation-button {
+    font-size: 2.5rem;
+  }
+}
